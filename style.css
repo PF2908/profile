@@ -1,0 +1,76 @@
+body {
+  text-align: center;
+  width: 700px;
+  margin:auto;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-image: url("images/vélo.jpeg");
+  background-position: center;
+  background-size: cover;
+  color: orangered;
+}
+
+h1 {
+  font-weight: bold;
+  color:blueviolet;
+}
+
+h2 {
+  color: rgb(181, 83, 83);
+  font-weight: 400;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+img:hover {
+  box-shadow: 10px 5px 5px yellowgreen;
+}
+.intro {
+border: 2px solid greenyellow;
+padding: 16px;
+margin: 4px;
+}
+
+.intro:hover{
+  background-color: whitesmoke;
+}
+
+.intro a {
+  border: 2px solid forestgreen;
+  background-image: url("images/vélo.jpeg");
+  margin: 12px;
+  padding: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgb(237, 234, 240);
+}
+
+.intro a:hover{
+  color: red;
+  transform: rotate(0.5turn);
+}
+.asset {
+  border: 2px solid greenyellow;
+  padding: 16px;
+  margin: 4px;
+  display: block;
+  transition: transform 2s;
+}
+
+.asset:hover{
+  background-color: whitesmoke;
+  transform: rotate(0.5turn);
+}
+
+.logo i{
+color:brown;
+font-size: 50px;
+padding: 20px;
+}
+
+.logo {
+  list-style-type: none;
+  display: inline-flex;
+}
